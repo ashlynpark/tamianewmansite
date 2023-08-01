@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-md px-4 navbarBg">
+    <a class="navbar-brand pl-5 navbarTitle" href="#">Tamia Newman</a>
+    <button class="navbar-toggler px-4 navbar-dark navbarBurger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item mx-2">
+            <a class="nav-link navbarItem" [ngStyle]="selected === 'home' ? { 'color': '#AFDACF' } : {}" href="#">HOME</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link navbarItem" [ngStyle]="selected === 'advocacy' ? { 'color': '#AFDACF' } : {}" href="#">ADVOCACY</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link navbarItem" [ngStyle]="selected === 'portfolio' ? { 'color': '#AFDACF' } : {}" href="#">PORTFOLIO</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link navbarItem" [ngStyle]="selected === 'about' ? { 'color': '#AFDACF' } : {}" href="#">ABOUT</a>
+        </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,21 @@
+.navbarTitle{
+    font-family: 'Playfair Display';
+    font-weight: 200;
+    font-size: 1.7em;
+    color: #E5F5F4;
+}
+
+.navbarItem{
+    font-family: 'Libre Franklin';
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #E5F5F4;
+}
+
+.navbarBurger{
+    background-color: #45746f !important;  
+}
+
+.navbarBg{
+    background-color: #1E4444;
+}

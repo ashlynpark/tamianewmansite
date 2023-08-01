@@ -1,0 +1,8 @@
+.headerimg {
+    background-size: cover;
+    background-position: top center;
+    height: 40vh; /* Adjust the height as needed to control the size of the header */
+    display: flex;
+    color: black; /* Text color for content inside the header */
+    font-size: 2rem; /* Font size for content inside the header */
+  }
