@@ -1,81 +1,154 @@
 .main{
-    background-color: #F1F7F9;
+  background-color: #e0edee;
+  min-height: 120vh
 }
 
 .headerimg{
-    background-image: url('../assets/waterbg.jpg');
-    background-size: cover;
-    background-position: top center;
-    height: 40vh; /* Adjust the height as needed to control the size of the header */
-    display: flex;
-    color: black; /* Text color for content inside the header */
-    font-size: 12pt; /* Font size for content inside the header */
-  }
+  background-image: url('../assets/waterbg.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 40vh; /* Adjust the height as needed to control the size of the header */
+  display: flex;
+  color: black; /* Text color for content inside the header */
+}
 
-  .centeredText{
-    text-align: center;
-    margin-right: auto;
+
+.centeredText{
+  text-align: center;
+}
+
+.maintitle{
+  color: #dae7e4;
+  font-family: "Playfair Display";
+  font-size: 3em;
+  margin-top: 20vh;
+  text-shadow: 0px 2px 5px #16333a;
+}
+
+.subtitle{
+  color: #cce0db;
+  font-family: "Playfair";
+  font-size: 1;
+  font-weight: 100;
+  font-style: italic;
+  text-shadow: 0px 2px 5px #16333a;
+}
+
+.maintext{
+  padding-top: 5%;
+  font-family: 'Libre Franklin';
+  font-size: 1.3em;
+  line-height: 2em;
+  color:#1D3A5C;
+  font-weight: 300;
+}
+
+.textcontainer{
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.imgcontainer{
+  margin-top: 3em;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;    
+  align-self: flex-start; 
+  border-radius: 30;
+}
+
+.piccy{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 30;
+
+}
+
+@media (min-width: 768px) {
+  .imgcontainer{
+      margin-left: 10%
+  }
+}
+
+/*mobile, small screens*/
+@media (max-width: 767px) {
+  .imgcontainer{
+    margin-top: 10%;
+    height: 70vh;
+    width: 90%;
   }
 
   .maintitle{
-    color: #dae7e4;
-    font-family: "Playfair Display";
     font-size: 3em;
-    margin-top: 20vh;
-    text-shadow: 0px 2px 5px #16333a;
+    margin-top: 10vh;
+  }  
+  
+  .maintext{
+    padding-top: 72vh;
+    font-family: 'Libre Franklin';
+    font-size: 1.2em;
+    line-height: 1.7em;
+    color:#1D3A5C;
   }
-
-  .subtitle{
-    color: #cce0db;
-    font-family: "Playfair";
-    font-size: 1;
-    font-weight: 100;
-    font-style: italic;
-    text-shadow: 0px 2px 5px #16333a;
+  .textcontainer{
+    padding-left: 2em;
+    padding-right: 2em;
   }
+  
+}
 
+
+/* tablet, medium screens*/
+@media (min-width: 768px) and (max-width: 991px){
+  .maintitle{
+      font-size: 2.5em;
+      margin-top: 10vw;
+    } 
+  
   .imgcontainer{
-    margin-top: 3em;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 90%;
-    height: 90vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;    
-    align-self: flex-start; 
+      margin-top: 2%;
+      height: 110vh;
+      width: 95%
   }
 
-  .piccy{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    
+  .maintext{
+    padding-top: 5%;
+    font-family: 'Libre Franklin';
+    font-size: 1em;
+    line-height: 1.7em;
+    color:#1D3A5C;
+  }
+}
+
+
+/* extra large screens */
+@media (min-width: 2200px){
+  .maintitle{
+    font-size: 5em;
+    margin-top: 10vw;
+  } 
+  
+  .imgcontainer{
+    margin-top: 2%;
+    height: 110vh;
+    width: 95%
   }
 
-  @media (min-width: 700px) {
-    .imgcontainer{
-        margin-left: 10%
-    }
+  .maintext{
+    padding-top: 5%;
+    font-family: 'Libre Franklin';
+    font-size: 2em;
+    line-height: 2.5em;
+    color:#1D3A5C;
+  }
+  .textcontainer{
+    padding-left: 20vw;
+    padding-right: 5em;
   }
 
-  /*mobile small screens*/
-  @media (max-width: 420px) {
-    .imgcontainer{
-        margin-top: 0;
-    }
-
-    .maintitle{
-        font-size: 3em;
-        margin-top: 10vh;
-      }    
-  }
-
-
-  /* tablet, medium screens*/
-  @media (min-width: 421px) and (max-width: 1023px){
-    .maintitle{
-        font-size: 3em;
-        margin-top: 7vh;
-      } 
-  }
+}

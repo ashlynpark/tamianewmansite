@@ -13,9 +13,16 @@
 }
 
 .navbarBurger{
-    background-color: #45746f !important;  
+    background-color: #45746f !important;
+    margin-left: auto;
 }
 
 .navbarBg{
     background-color: #1E4444;
+}
+
+@media (max-width: 333px){
+    .navbarTitle{
+        display: none;
+    }
 }
