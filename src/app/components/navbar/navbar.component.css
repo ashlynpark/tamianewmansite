@@ -5,12 +5,23 @@
     color: #E5F5F4;
 }
 
-.navbarItem{
+a{
     font-family: 'Libre Franklin';
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.2em;
     color: #E5F5F4;
 }
+
+
+.nav-link.active{
+    color:#7ad0c7;
+
+}
+
+a.hover{
+    color:#45746f;
+}
+
 
 .navbarBurger{
     background-color: #45746f !important;
@@ -21,8 +32,10 @@
     background-color: #1E4444;
 }
 
+
 @media (max-width: 333px){
     .navbarTitle{
         display: none;
     }
 }
+

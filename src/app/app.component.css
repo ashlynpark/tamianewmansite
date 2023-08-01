@@ -1,6 +1,7 @@
 .main{
   background-color: #e0edee;
-  min-height: 120vh
+  min-height: 120vh;
+  height: auto;
 }
 
 .headerimg{
@@ -20,8 +21,8 @@
 .maintitle{
   color: #dae7e4;
   font-family: "Playfair Display";
-  font-size: 3em;
-  margin-top: 20vh;
+  font-size: 4vw;
+  margin-top: 10vw;
   text-shadow: 0px 2px 5px #16333a;
 }
 
@@ -58,15 +59,63 @@
   display: flex;
   align-items: center;    
   align-self: flex-start; 
-  border-radius: 30;
+  border-radius: 10px;
 }
 
 .piccy{
   width: 100%;
   height: auto;
   overflow: hidden;
-  border-radius: 30;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #16333a;
+}
 
+.svg-container {
+  /* Center the SVG element */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* Set the size of the container (adjust as needed) */
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #d2e2de;
+  width: auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 20px;
+  /* Add any other styles for the container */
+}
+
+.smallicon {
+  align-self: center;
+  /* Change the color of the SVG element */
+  fill: #45746f; /* Replace 'blue' with the desired color */
+}
+a{
+  text-decoration: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+}
+h3{
+  color: #45746f;
+  font-size:1.2em;
+  margin-left: 0.3em;
+}
+
+.contactsection{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3em;
+  justify-content: center;
+  padding-bottom: 2em;
+  margin-top: 5vw;
 }
 
 @media (min-width: 768px) {
@@ -123,6 +172,11 @@
     line-height: 1.7em;
     color:#1D3A5C;
   }
+
+  .contactsection{
+    margin-top: 7em;
+  }
+
 }
 
 
@@ -130,7 +184,7 @@
 @media (min-width: 2200px){
   .maintitle{
     font-size: 5em;
-    margin-top: 10vw;
+    margin-right: auto;
   } 
   
   .imgcontainer{
@@ -151,4 +205,7 @@
     padding-right: 5em;
   }
 
+  .contactsection{
+    margin-top: 10%;
+  }
 }

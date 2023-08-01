@@ -6,16 +6,16 @@
     <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
         <li class="nav-item mx-2">
-            <a class="nav-link navbarItem" [ngStyle]="selected === 'home' ? { 'color': '#AFDACF' } : {}" href="#">HOME</a>
+            <a class="nav-link" routerLink="/home" routerLinkActive="active" href="/home">HOME</a>
         </li>
         <li class="nav-item mx-2">
-            <a class="nav-link navbarItem" [ngStyle]="selected === 'advocacy' ? { 'color': '#AFDACF' } : {}" href="#">ADVOCACY</a>
+            <a class="nav-link" routerLink="/advocacy" routerLinkActive="active" href="#">ADVOCACY</a>
         </li>
         <li class="nav-item mx-2">
-            <a class="nav-link navbarItem" [ngStyle]="selected === 'portfolio' ? { 'color': '#AFDACF' } : {}" href="#">PORTFOLIO</a>
+            <a class="nav-link" routerLink="/portfolio" routerLinkActive="active" href="#">PORTFOLIO</a>
         </li>
         <li class="nav-item mx-2">
-            <a class="nav-link navbarItem" [ngStyle]="selected === 'about' ? { 'color': '#AFDACF' } : {}" href="#">ABOUT</a>
+            <a class="nav-link" routerLink="/about" routerLinkActive="active" href="/about">ABOUT</a>
         </li>
         </ul>
     </div>
