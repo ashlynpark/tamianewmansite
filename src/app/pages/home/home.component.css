@@ -1,19 +1,22 @@
 .main{
     background-color: #e0edee;
-    min-height: 120vh;
     height: auto;
 }
 .headerimg{
     background-image: url('../../../assets/home_header.png');
     background-size: cover;
     background-position: top center;
-    height: 40vh; /* Adjust the height as needed to control the size of the header */
+    height: auto; /* Adjust the height as needed to control the size of the header */
     display: flex;
     color: black; /* Text color for content inside the header */
   }
+
   
   .centeredText{
-    text-align: center;
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
   }
   
   .maintitle{
@@ -35,6 +38,7 @@
     font-family: "Playfair Display";
     font-size: 1.7em;
     font-weight: 100;
+    justify-self: left;
   }
   
   .mt-10{
