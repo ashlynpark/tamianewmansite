@@ -1,5 +1,8 @@
 <div class="thumbnailcontainer mx-auto">
-    <div class='thumbnail mx-auto'>
-
+    <div class='thumbnail mx-auto' [ngStyle]="{'background-image': 'url(' + imgsrc + ')'}">
+       <div class="overlay" [ngStyle]="{ 'background-color': 'rgba(' + redbg + ',' + greenbg + ',' + bluebg + ',' + '0.7)' }">
+         <h1 class="thumbnailTitle" [ngStyle]="{ 'color': 'rgb(' + redtxt + ',' + greentxt + ',' + bluetxt + ')' }">{{title}}</h1>
+         <p class="description mx-auto" [ngStyle]="{ 'color': 'rgba(' + redtxt + ',' + greentxt + ',' + bluetxt + ',' + '0.8)' }">{{description}}</p>
+       </div>
     </div>
 </div>

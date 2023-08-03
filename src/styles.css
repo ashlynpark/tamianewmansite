@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'AgrandirGrandHeavy';
+    src: url('./assets/fonts/Agrandir/Agrandir-GrandHeavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirNarrow';
+    src: url('./assets/fonts/Agrandir/Agrandir-Narrow.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirGrandLight';
+    src: url('./assets/fonts/Agrandir/Agrandir-GrandLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirRegular';
+    src: url('./assets/fonts/Agrandir/Agrandir-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirTextBold';
+    src: url('./assets/fonts/Agrandir/Agrandir-TextBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirThinItalic';
+    src: url('./assets/fonts/Agrandir/Agrandir-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirTight';
+    src: url('./assets/fonts/Agrandir/Agrandir-Tight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirWideBlackItalic';
+    src: url('./assets/fonts/Agrandir/Agrandir-WideBlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AgrandirWideLight';
+    src: url('./assets/fonts/Agrandir/Agrandir-WideLight.otf') format('opentype');
+}

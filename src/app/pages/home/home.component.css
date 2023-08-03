@@ -1,11 +1,16 @@
 .main{
-    background-color: #e0edee;
-    height: auto;
+    background-image: url('../../../assets/academiabg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height:auto;
+    z-index: -1;
 }
 .headerimg{
-    background-image: url('../../../assets/home_header.png');
-    background-size: cover;
-    background-position: top center;
     height: auto; /* Adjust the height as needed to control the size of the header */
     display: flex;
     color: black; /* Text color for content inside the header */
@@ -20,21 +25,21 @@
   }
   
   .maintitle{
-    color: #082626;
+    color: #ccfdfd;
     font-family: "Playfair Display";
     font-size: 4vw;
     font-weight: 600;
   }
   
   .subtitle{
-    color: #1E4444;
+    color: #a7d5d5;
     font-family: "Playfair Display";
     font-size: 2.3em;
     font-weight: 200;
   }
   
   .subheading{
-    color: #1E4444;
+    color: #a7d5d5;
     font-family: "Playfair Display";
     font-size: 1.7em;
     font-weight: 100;
@@ -59,6 +64,10 @@
     padding-right: 5em;
   }
   
+  a{
+    text-decoration: none;
+  }
+
   .imgcontainer{
     margin-top: 3em;
     margin-right: 5%;
