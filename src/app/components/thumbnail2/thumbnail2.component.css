@@ -65,14 +65,15 @@
   /* Medium to small screens */
 @media (max-width: 991px){
   .thumbnailTitle{
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .thumbnail .description{
-    font-size: 1.5em;
-    line-height: normal;
+    font-size: 1em;
+    line-height: 1em;
   }
 }
+
 
 /* XL screens */
 @media (min-width: 1650px){
