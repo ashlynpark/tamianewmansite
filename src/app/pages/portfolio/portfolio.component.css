@@ -43,3 +43,17 @@
     text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
 }
 
+
+@media (max-width: 767px){
+    .maintitle{
+        font-size: 12svw;
+    }
+
+    .subtitle{
+        font-size: 10svw;
+    }
+
+    .subtitle1{
+        font-size: 10svw;
+    }
+}
