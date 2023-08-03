@@ -1,8 +1,57 @@
-<div class="thumbnailcontainer mx-auto">
+<!-- <div class="thumbnailcontainer mx-auto">
     <div class='thumbnail mx-auto' [ngStyle]="{'background-image': 'url(' + imgsrc + ')'}">
-       <div class="overlay" [ngStyle]="{ 'background-color': 'rgba(' + redbg + ',' + greenbg + ',' + bluebg + ',' + '0.7)' }">
+       <div class="overlay" [ngStyle]="{ 'background-color': 'rgba(' + redbg + ',' + greenbg + ',' + bluebg + ',' + '0.8)' }">
          <h1 class="thumbnailTitle" [ngStyle]="{ 'color': 'rgb(' + redtxt + ',' + greentxt + ',' + bluetxt + ')' }">{{title}}</h1>
-         <p class="description mx-auto" [ngStyle]="{ 'color': 'rgba(' + redtxt + ',' + greentxt + ',' + bluetxt + ',' + '0.8)' }">{{description}}</p>
+         <p class="description mx-auto" [ngStyle]="{ 'color': 'rgba(' + redtxt + ',' + greentxt + ',' + bluetxt + ',' + '0.85)' }">{{description}}</p>
        </div>
     </div>
+</div> -->
+
+<a [href]="'./' + pageroute" class="projcard" [ngStyle]="{'background-image': 'url(' + imgsrc + ')'}">
+  <div class="cardinner" [ngStyle]="{ 'background-color': 'rgba(' + redbg + ',' + greenbg + ',' + bluebg + ',' + '0.8)' }">
+    <h1 class="projecttitle" [ngStyle]="{ 'color': 'rgb(' + redtxt + ',' + greentxt + ',' + bluetxt + ')' }">{{title}}</h1> 
+    <p class="projectdescription" [ngStyle]="{ 'color': 'rgba(' + redtxt + ',' + greentxt + ',' + bluetxt + ',' + '0.85)' }">{{description}}</p>
+  </div>
+</a>
+
+
+
+<!-- 
+
+<div className={styles.projcard} style={{backgroundImage: bgimage, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+  <div style={{minHeight: '12em', padding: '15px',  marginTop: '45%',backgroundColor: 'rgba(232, 237, 236, 0.9)', borderBottomLeftRadius: '15px', borderBottomRightRadius: '15px'}}>
+      <h1 className={styles.projecttitle}>{title}</h1> 
+      <p className={styles.projectdescription}>{description}</p>
+  </div>
 </div>
+
+
+CSS:
+
+.projcard{
+  margin-bottom: 9%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  flex: 1;
+  background-color: rgb(183, 212, 240);
+}
+
+.projecttitle{
+  font-family: 'Maharlika';
+  font-size: 1.3em;
+  font-weight: 800;
+  color: rgb(3, 71, 63);
+}
+
+.projectdescription{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1em;
+  color: #5f5259;
+}
+
+
+ -->

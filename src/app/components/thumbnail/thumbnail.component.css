@@ -8,13 +8,13 @@
   
   .thumbnail {
     position: relative;
-    max-width: 75%;
+    max-width: 65%;
     width: auto;
     height: auto;
     min-height: 22vw;
     /* Set the padding-bottom to 100% to create a square (1:1 aspect ratio) */
     padding-bottom: 50%;
-    border-radius: 35px;
+    border-radius: 25px;
     background-size: cover;
     background-position: top center;
     display: flex;
@@ -31,7 +31,7 @@
     width: 100%;
     height: 100%;
     /* background-color: rgba(58, 41, 13, 0.8); */
-    border-radius: 35px;
+    border-radius: 25px;
     /* Use flex display for .overlay to control its child elements */
     display: flex;
     flex-direction: column; /* Set 'column' to stack the child elements vertically */
@@ -45,16 +45,60 @@
     text-align: center;
     font-size: 2.3rem;
     /* color: rgb(167, 245, 255); */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin: 0; /* Remove the default margin from h1 */
   }
   
   .thumbnail .description {
-    font-family: 'AgrandirThinItalic', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 1.3em;
     font-weight: 400;
     font-style: italic;
     /* color: rgb(131, 181, 177); */
     padding-top: 3%;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin: 0; /* Remove the default margin from p */
     text-align: center; /* Center the text inside .description */
   }
+
+
+
+.projcard{
+  margin-bottom: 9%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardinner{
+  min-height: 12em;
+  padding: 15px;
+  margin-top: 45%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+  
+.projecttitle{
+  font-family: 'AgrandirWideLight';
+  font-size: 1.7em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.projectdescription{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+
+a{
+  text-decoration: none;
+}

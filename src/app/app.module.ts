@@ -10,6 +10,8 @@ import { HeaderimgComponent } from './components/headerimg/headerimg.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ThumbnailComponent } from './components/thumbnail/thumbnail.component';
 import { Thumbnail2Component } from './components/thumbnail2/thumbnail2.component';
+import { AdvocacyComponent } from './pages/advocacy/advocacy.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { Thumbnail2Component } from './components/thumbnail2/thumbnail2.componen
     HomeComponent,
     ThumbnailComponent,
     Thumbnail2Component,
+    AdvocacyComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,

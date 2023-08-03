@@ -25,25 +25,28 @@
   }
   
   .maintitle{
-    color: #ccfdfd;
-    font-family: "Playfair Display";
-    font-size: 4vw;
-    font-weight: 600;
+    color: #ead2bc;
+    font-family: "Gentium Book Plus";
+    font-size: 4em;
+    font-weight: 400;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
   }
   
   .subtitle{
-    color: #a7d5d5;
-    font-family: "Playfair Display";
-    font-size: 2.3em;
-    font-weight: 200;
+    color: #f4e8dd;
+    font-family: "Niconne";
+    font-size: 2.6em;
+    font-style: italic;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
   }
   
   .subheading{
-    color: #a7d5d5;
-    font-family: "Playfair Display";
-    font-size: 1.7em;
+    color: #f4e8dd;
+    font-family: "Gentium Book Plus";
+    font-size: 2.4em;
     font-weight: 100;
     justify-self: left;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
   }
   
   .mt-10{
@@ -150,19 +153,6 @@
       height: 70vh;
       width: 90%;
     }
-  
-    .maintitle{
-      font-size: 3em;
-      margin-top: 10vh;
-    }  
-    
-    .maintext{
-      padding-top: 72vh;
-      font-family: 'Libre Franklin';
-      font-size: 1.2em;
-      line-height: 1.7em;
-      color:#1D3A5C;
-    }
     .textcontainer{
       padding-left: 2em;
       padding-right: 2em;
@@ -173,24 +163,6 @@
   
   /* tablet, medium screens*/
   @media (min-width: 768px) and (max-width: 991px){
-    .maintitle{
-        font-size: 2.5em;
-        margin-top: 10vw;
-      } 
-    
-    .imgcontainer{
-        margin-top: 2%;
-        height: 110vh;
-        width: 95%
-    }
-  
-    .maintext{
-      padding-top: 5%;
-      font-family: 'Libre Franklin';
-      font-size: 1em;
-      line-height: 1.7em;
-      color:#1D3A5C;
-    }
   
     .contactsection{
       margin-top: 7em;
@@ -201,29 +173,6 @@
   
   /* extra large screens */
   @media (min-width: 2200px){
-    .maintitle{
-      font-size: 5em;
-      margin-right: auto;
-    } 
-    
-    .imgcontainer{
-      margin-top: 2%;
-      height: 110vh;
-      width: 95%
-    }
-  
-    .maintext{
-      padding-top: 5%;
-      font-family: 'Libre Franklin';
-      font-size: 2em;
-      line-height: 2.5em;
-      color:#1D3A5C;
-    }
-    .textcontainer{
-      padding-left: 20vw;
-      padding-right: 5em;
-    }
-  
     .contactsection{
       margin-top: 10%;
     }

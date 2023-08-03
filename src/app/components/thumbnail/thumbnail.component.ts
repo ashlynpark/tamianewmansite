@@ -15,6 +15,6 @@ export class ThumbnailComponent {
   @Input() redtxt: string = '0';
   @Input() greentxt: string = '0';
   @Input() bluetxt: string = '0';
-
+  @Input() pageroute:string ='#';
 
 }

@@ -1,0 +1,45 @@
+.main{
+    background-color: #e7ddd6;
+    min-height: 120vh;
+    height: auto;
+  }
+  
+.headerimg2{
+    background-image: url('../../../assets/writing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust the height as needed to control the size of the header */
+    display: flex;
+    color: black; /* Text color for content inside the header */
+}
+
+.maintitle{
+    color: #eccf92;
+    font-family: "AgrandirWideLight";
+    font-size: 4.2em;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subtitle{
+    color: #e7ddd6;
+    font-family: "Playfair";
+    font-size: 2.5em;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+}
+
+.subtitle1{
+    margin-top: 20vh;
+    color: #e7ddd6;
+    font-family: "Playfair";
+    font-size: 2.5em;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+}
+
